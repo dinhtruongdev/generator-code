@@ -1,0 +1,27 @@
+{
+    "name": "truongdinh/generator-laravel",
+    "description": "Code generator for laravel project",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "generator"
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Truongdinh\\GeneratorLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Đinh Văn Trường",
+            "email": "dvtruong.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
